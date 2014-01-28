@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sample Results with Folders.kml</name>
+	<Schema name="2013 Locations - Snow Only 122913" id="S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+		<SimpleField type="string" name="LOCATION_NAME"><displayName>&lt;b&gt;LOCATION NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONTRACTOR_NAME"><displayName>&lt;b&gt;CONTRACTOR NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONTRACTOR_CONTACT"><displayName>&lt;b&gt;CONTRACTOR CONTACT&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="CONTRACTOR_ID"><displayName>&lt;b&gt;CONTRACTOR ID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONTRACTOR_24HR"><displayName>&lt;b&gt;CONTRACTOR 24HR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONTRACTOR_OFFICE"><displayName>&lt;b&gt;CONTRACTOR OFFICE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONTRACTOR_ALT_24HR"><displayName>&lt;b&gt;CONTRACTOR ALT 24HR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CUSTOMER"><displayName>&lt;b&gt;CUSTOMER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CUSTOMER_CODE"><displayName>&lt;b&gt;CUSTOMER CODE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CUSTOMER_PHONE"><displayName>&lt;b&gt;CUSTOMER PHONE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CUSTOMER_ADDRESS"><displayName>&lt;b&gt;CUSTOMER ADDRESS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CUSTOMER_CITY"><displayName>&lt;b&gt;CUSTOMER CITY&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CUSTOMER_STATE"><displayName>&lt;b&gt;CUSTOMER STATE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="CUSTOMER_ZIP_CODE"><displayName>&lt;b&gt;CUSTOMER ZIP CODE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="LONGITUDE"><displayName>&lt;b&gt;LONGITUDE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="LATITUDE"><displayName>&lt;b&gt;LATITUDE&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<color>ff00aaaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaaa</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<color>ff7f5555</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7f5555</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<color>ff7f0000</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7f0000</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle1">
+		<IconStyle>
+			<color>ff7f5555</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7f5555</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle0">
+		<IconStyle>
+			<color>ff7f0000</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7f0000</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle1">
+		<IconStyle>
+			<color>ff00aaaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaaa</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<color>ff005555</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff005555</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle2">
+		<IconStyle>
+			<color>ff7f55aa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7f55aa</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle3">
+		<IconStyle>
+			<color>ff005555</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff005555</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle3">
+		<IconStyle>
+			<color>ff7f55aa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7f55aa</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LOCATION NAME</b></td><td>$[2013 Locations - Snow Only 122913/LOCATION_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR NAME</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_NAME]</td></tr>
+  <tr><td><b>CONTRACTOR CONTACT</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_CONTACT]</td></tr>
+  <tr><td><b>CONTRACTOR ID</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ID]</td></tr>
+  <tr><td><b>CONTRACTOR 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_24HR]</td></tr>
+  <tr><td><b>CONTRACTOR OFFICE</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_OFFICE]</td></tr>
+  <tr><td><b>CONTRACTOR ALT 24HR</b></td><td>$[2013 Locations - Snow Only 122913/CONTRACTOR_ALT_24HR]</td></tr>
+  <tr><td><b>CUSTOMER</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER]</td></tr>
+  <tr><td><b>CUSTOMER CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CODE]</td></tr>
+  <tr><td><b>CUSTOMER PHONE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_PHONE]</td></tr>
+  <tr><td><b>CUSTOMER ADDRESS</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ADDRESS]</td></tr>
+  <tr><td><b>CUSTOMER CITY</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_CITY]</td></tr>
+  <tr><td><b>CUSTOMER STATE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_STATE]</td></tr>
+  <tr><td><b>CUSTOMER ZIP CODE</b></td><td>$[2013 Locations - Snow Only 122913/CUSTOMER_ZIP_CODE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[2013 Locations - Snow Only 122913/LATITUDE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>Sample Results with Folders</name>
+		<open>1</open>
+		<Folder>
+			<name>101 LAKES LANDSCAPIN</name>
+			<Placemark>
+				<name>101 LAKES LANDSCAPIN - CVS 06494</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">101 LAKES LANDSCAPIN - CVS 06494</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">101 LAKES LANDSCAPIN</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">DAN &amp; RON FARNHAM</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">33</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">260-905-0041</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">260-905-0041</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">260-905-0042</SimpleData>
+						<SimpleData name="CUSTOMER">CVS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">06494</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">2606652106</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">700 NORTH WAYNE</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">ANGOLA</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">46703</SimpleData>
+						<SimpleData name="LONGITUDE">-84.9992</SimpleData>
+						<SimpleData name="LATITUDE">41.6428</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-84.999208,41.642847,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>360 LAWN &amp; LANDSCAPI</name>
+			<Placemark>
+				<name>360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MOW-177</name>
+				<styleUrl>#pointStyleMap1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MOW-177</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">360 LAWN &amp; LANDSCAPI</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">KRISTOPHER &amp; MICHELL</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">6015</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">314-873-6015</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">314-707-6412</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">314-707-6412</SimpleData>
+						<SimpleData name="CUSTOMER">BANK OF AMERICA</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">MOW-177</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE"></SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">6944 N HANLEY RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">HAZELWOOD</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">MO</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">63042</SimpleData>
+						<SimpleData name="LONGITUDE">-90.3353</SimpleData>
+						<SimpleData name="LATITUDE">38.767</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.335264,38.767011,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-125</name>
+				<styleUrl>#pointStyleMap1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-125</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">360 LAWN &amp; LANDSCAPI</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">KRISTOPHER &amp; MICHELL</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">6015</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">314-873-6015</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">314-707-6412</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">314-707-6412</SimpleData>
+						<SimpleData name="CUSTOMER">BANK OF AMERICA</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">MO1-125</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">(314) 284-0400</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">495 HOWDERSHELL RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">FLORISSANT</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">MO</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">63031</SimpleData>
+						<SimpleData name="LONGITUDE">-90.3632</SimpleData>
+						<SimpleData name="LATITUDE">38.8053</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.36323,38.805292,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-127</name>
+				<styleUrl>#pointStyleMap1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-127</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">360 LAWN &amp; LANDSCAPI</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">KRISTOPHER &amp; MICHELL</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">6015</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">314-873-6015</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">314-707-6412</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">314-707-6412</SimpleData>
+						<SimpleData name="CUSTOMER">BANK OF AMERICA</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">MO1-127</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE"></SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">2621 DUNN RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">SAINT LOUIS</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">MO</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">63136</SimpleData>
+						<SimpleData name="LONGITUDE">-90.262</SimpleData>
+						<SimpleData name="LATITUDE">38.7717</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.262,38.77167999999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-112</name>
+				<styleUrl>#pointStyleMap1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-112</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">360 LAWN &amp; LANDSCAPI</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">KRISTOPHER &amp; MICHELL</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">6015</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">314-873-6015</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">314-707-6412</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">314-707-6412</SimpleData>
+						<SimpleData name="CUSTOMER">BANK OF AMERICA</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">MO1-112</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE"></SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">6950 PARKER RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">FLORISSANT</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">MO</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">63033</SimpleData>
+						<SimpleData name="LONGITUDE">-90.2319</SimpleData>
+						<SimpleData name="LATITUDE">38.7955</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.23190999999999,38.79551800000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-113</name>
+				<styleUrl>#pointStyleMap1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-113</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">360 LAWN &amp; LANDSCAPI</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">KRISTOPHER &amp; MICHELL</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">6015</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">314-873-6015</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">314-707-6412</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">314-707-6412</SimpleData>
+						<SimpleData name="CUSTOMER">BANK OF AMERICA</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">MO1-113</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">(314) 284-0450</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">14300 NEW HALLS FERRY RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">FLORISSANT</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">MO</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">63033</SimpleData>
+						<SimpleData name="LONGITUDE">-90.3</SimpleData>
+						<SimpleData name="LATITUDE">38.8121</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.30002,38.81213400000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-117</name>
+				<styleUrl>#pointStyleMap1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">360 LAWN &amp; LANDSCAPI - BANK OF AMERICA MO1-117</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">360 LAWN &amp; LANDSCAPI</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">KRISTOPHER &amp; MICHELL</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">6015</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">314-873-6015</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">314-707-6412</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">314-707-6412</SimpleData>
+						<SimpleData name="CUSTOMER">BANK OF AMERICA</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">MO1-117</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">(314) 284-0300</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">7601 N LINDBERGH BLVD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">HAZELWOOD</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">MO</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">63042</SimpleData>
+						<SimpleData name="LONGITUDE">-90.3524</SimpleData>
+						<SimpleData name="LATITUDE">38.7863</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.35238,38.78629699999997,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>4 SEASONS LAWNCARE</name>
+			<Placemark>
+				<name>4 SEASONS LAWNCARE - CVS 06714</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">4 SEASONS LAWNCARE - CVS 06714</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">4 SEASONS LAWNCARE</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">MARTY EAGER</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">2391</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">812-508-2391</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">812-508-2391</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR"></SimpleData>
+						<SimpleData name="CUSTOMER">CVS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">06714</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">(812) 849-2425</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">8830 STATE ROAD 60 WEST</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">MITCHELL</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">47446</SimpleData>
+						<SimpleData name="LONGITUDE">-86.3288</SimpleData>
+						<SimpleData name="LATITUDE">38.6712</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-86.32880000000002,38.67119999999999,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>A CUT ABOVE LAWN &amp; L</name>
+			<Placemark>
+				<name>A CUT ABOVE LAWN &amp; L - CVS 08633</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A CUT ABOVE LAWN &amp; L - CVS 08633</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A CUT ABOVE LAWN &amp; L</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">TIM &amp; JEANINE BYERS</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">2428</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">563-529-2428</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">563-529-2428</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">563-343-6743</SimpleData>
+						<SimpleData name="CUSTOMER">CVS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">08633</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">(563) 359-0374</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">2314 SPRUCE HILLS DR</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">BETTENDORF</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IA</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">52722</SimpleData>
+						<SimpleData name="LONGITUDE">-90.5007</SimpleData>
+						<SimpleData name="LATITUDE">41.549</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.500677,41.548981,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A CUT ABOVE LAWN &amp; L - CVS 08658</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A CUT ABOVE LAWN &amp; L - CVS 08658</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A CUT ABOVE LAWN &amp; L</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">TIM &amp; JEANINE BYERS</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">2428</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">563-529-2428</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">563-529-2428</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">563-343-6743</SimpleData>
+						<SimpleData name="CUSTOMER">CVS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">08658</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">(563) 388-7856</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">1655 W KIMBERLY RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">DAVENPORT</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IA</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">52806</SimpleData>
+						<SimpleData name="LONGITUDE">-90.5992</SimpleData>
+						<SimpleData name="LATITUDE">41.56</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.59920000000001,41.56,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A CUT ABOVE LAWN &amp; L - CVS 08659</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A CUT ABOVE LAWN &amp; L - CVS 08659</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A CUT ABOVE LAWN &amp; L</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">TIM &amp; JEANINE BYERS</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">2428</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">563-529-2428</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">563-529-2428</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">563-343-6743</SimpleData>
+						<SimpleData name="CUSTOMER">CVS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">08659</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">5633231074</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">1777 N DIVISION ST</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">DAVENPORT</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IA</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">52804</SimpleData>
+						<SimpleData name="LONGITUDE">-90.5985</SimpleData>
+						<SimpleData name="LATITUDE">41.5406</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.5985,41.5406,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A CUT ABOVE LAWN &amp; L - BRIXMOR 418401</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A CUT ABOVE LAWN &amp; L - BRIXMOR 418401</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A CUT ABOVE LAWN &amp; L</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">TIM &amp; JEANINE BYERS</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">2428</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">563-529-2428</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">563-529-2428</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">563-343-6743</SimpleData>
+						<SimpleData name="CUSTOMER">BRIXMOR</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">418401</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE"></SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">2142 W KIMBERLY RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">DAVENPORT</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IA</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">52806</SimpleData>
+						<SimpleData name="LONGITUDE">-90.6065</SimpleData>
+						<SimpleData name="LATITUDE">41.5601</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.60653000000002,41.56010200000002,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>A+ MOWING</name>
+			<Placemark>
+				<name>A+ MOWING - JAY C FOODS JC00053</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A+ MOWING - JAY C FOODS JC00053</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A+ MOWING</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">JADE PETERS &amp; TONY</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">486</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">812-521-0746</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">812-358-3796</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">812-525-7186</SimpleData>
+						<SimpleData name="CUSTOMER">JAY C FOODS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">JC00053</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">8123583066</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">908 W COMMERCE ST</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">BROWNSTOWN</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">47220</SimpleData>
+						<SimpleData name="LONGITUDE">-86.0528</SimpleData>
+						<SimpleData name="LATITUDE">38.8797</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-86.05284600000002,38.879729,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A+ MOWING - JAY C FOODS JC00073</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A+ MOWING - JAY C FOODS JC00073</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A+ MOWING</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">JADE PETERS &amp; TONY</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">486</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">812-521-0746</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">812-358-3796</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">812-525-7186</SimpleData>
+						<SimpleData name="CUSTOMER">JAY C FOODS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">JC00073</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE"></SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">1181 W TIPTON ST</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">SEYMOUR</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">47274</SimpleData>
+						<SimpleData name="LONGITUDE">-85.9017</SimpleData>
+						<SimpleData name="LATITUDE">38.9535</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-85.90170000000001,38.95349500000003,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A+ MOWING - JAY C FOODS JC-002</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A+ MOWING - JAY C FOODS JC-002</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A+ MOWING</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">JADE PETERS &amp; TONY</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">486</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">812-521-0746</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">812-358-3796</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">812-525-7186</SimpleData>
+						<SimpleData name="CUSTOMER">JAY C FOODS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">JC-002</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE"></SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">1600 SCHLETER RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">SEYMOUR</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">47274</SimpleData>
+						<SimpleData name="LONGITUDE">-85.9165</SimpleData>
+						<SimpleData name="LATITUDE">38.945</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-85.916495,38.944994,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A+ MOWING - JAY C FOODS JC-001</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A+ MOWING - JAY C FOODS JC-001</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A+ MOWING</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">JADE PETERS &amp; TONY</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">486</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">812-521-0746</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">812-358-3796</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">812-525-7186</SimpleData>
+						<SimpleData name="CUSTOMER">JAY C FOODS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">JC-001</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE"></SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">900 A AVE E</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">SEYMOUR</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">47274</SimpleData>
+						<SimpleData name="LONGITUDE">-85.9028</SimpleData>
+						<SimpleData name="LATITUDE">38.9273</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-85.902813,38.92725999999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A+ MOWING - JAY C FOODS JC-003</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A+ MOWING - JAY C FOODS JC-003</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A+ MOWING</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">JADE PETERS &amp; TONY</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">486</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">812-521-0746</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">812-358-3796</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">812-525-7186</SimpleData>
+						<SimpleData name="CUSTOMER">JAY C FOODS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">JC-003</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE"></SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">1446 SCHLETER RD</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">SEYMOUR</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">47274</SimpleData>
+						<SimpleData name="LONGITUDE">-85.9093</SimpleData>
+						<SimpleData name="LATITUDE">38.9468</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-85.90928900000002,38.94676699999998,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A+ MOWING - CVS 06696</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A+ MOWING - CVS 06696</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A+ MOWING</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">JADE PETERS &amp; TONY</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">486</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">812-521-0746</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">812-358-3796</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">812-525-7186</SimpleData>
+						<SimpleData name="CUSTOMER">CVS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">06696</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">8123583671</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">415 S MAIN ST</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">BROWNSTOWN</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">47220</SimpleData>
+						<SimpleData name="LONGITUDE">-86.0435</SimpleData>
+						<SimpleData name="LATITUDE">38.8762</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-86.0435,38.87619999999997,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A+ MOWING - CVS 06756</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_2013_Locations___Snow_Only_122913_SSSISSSSSSSSSIDD">
+						<SimpleData name="LOCATION_NAME">A+ MOWING - CVS 06756</SimpleData>
+						<SimpleData name="CONTRACTOR_NAME">A+ MOWING</SimpleData>
+						<SimpleData name="CONTRACTOR_CONTACT">JADE PETERS &amp; TONY</SimpleData>
+						<SimpleData name="CONTRACTOR_ID">486</SimpleData>
+						<SimpleData name="CONTRACTOR_24HR">812-521-0746</SimpleData>
+						<SimpleData name="CONTRACTOR_OFFICE">812-358-3796</SimpleData>
+						<SimpleData name="CONTRACTOR_ALT_24HR">812-525-7186</SimpleData>
+						<SimpleData name="CUSTOMER">CVS</SimpleData>
+						<SimpleData name="CUSTOMER_CODE">06756</SimpleData>
+						<SimpleData name="CUSTOMER_PHONE">8125222628</SimpleData>
+						<SimpleData name="CUSTOMER_ADDRESS">201 E TIPTON ST</SimpleData>
+						<SimpleData name="CUSTOMER_CITY">SEYMOUR</SimpleData>
+						<SimpleData name="CUSTOMER_STATE">IN</SimpleData>
+						<SimpleData name="CUSTOMER_ZIP_CODE">47274</SimpleData>
+						<SimpleData name="LONGITUDE">-85.8867</SimpleData>
+						<SimpleData name="LATITUDE">38.9573</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-85.88670000000001,38.95730000000002,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
